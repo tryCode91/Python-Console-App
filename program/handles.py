@@ -31,7 +31,7 @@ def process_ajax():
             return """0"""
 
     else:
-        return """<h3>Method is GET</h3>"""
+        return """<h3>Method is GETS</h3>"""
 
 if __name__ == "__handles__":
     app.run(debug=True)
